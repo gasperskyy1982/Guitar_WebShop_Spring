@@ -147,7 +147,7 @@ public class CartController {
 			session.setAttribute("numberCurrentProduct", numberCurrentProduct);
 			session.setAttribute("cart", cartMap);
 			session.setAttribute("numberGeneralProducts", numberGeneralProducts);
-			// model.addAttribute("cart", cartMap);
+			//model.addAttribute("cart", cartMap);
 
 		}
 

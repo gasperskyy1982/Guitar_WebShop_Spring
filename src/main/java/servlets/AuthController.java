@@ -29,7 +29,7 @@ public class AuthController {
 		
 		if (logOut != null) {
 			session.invalidate();
-			session = session = mySession();
+			session = mySession();
 		}
 		return "AuthDB";
 	}

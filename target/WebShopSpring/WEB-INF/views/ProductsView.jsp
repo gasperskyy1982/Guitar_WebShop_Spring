@@ -65,6 +65,10 @@ $.ajax({
         dataType: "html", 
 		data: "productToBuy=" + id + "&qnt=" + number,
         success: function(response) { 
+        	var begin =	response.indexOf("В вашей ");
+			var end =	response.indexOf("товаров");
+			var resp = response.substring(begin,end);
+			$('#general').html(resp +" товаров"); 
         },
         error: function(response) { // Данные не отправлены
             document.getElementById(result_form).innerHTML = "Ошибка. Данные не отправленны.";

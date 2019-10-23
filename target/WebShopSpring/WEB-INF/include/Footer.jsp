@@ -7,8 +7,8 @@
 	<table border=1>
 		<tr>
 			<td width="252" align="left"><font color=white> Вы
-					авторизировались как ${user.name} <br /> В вашей корзине
-					${numberGeneralProducts} товаров.
+					авторизировались как ${user.name} <br /> 
+			<div id ='general'>	В вашей корзине ${numberGeneralProducts} товаров </div>
 			</font></td>
 		</tr>
 	</table>
